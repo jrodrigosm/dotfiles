@@ -11,7 +11,7 @@ article.
 To install the files in your local system just clone the repo and, within the
 repo's root folder, run
 
-    $ stow bash
-    $ stow vim
+    $ stow -t $HOME bash
+    $ stow -t $HOME vim
 
 GNU stow will symlink the repo's dotfiles to your home dir.
